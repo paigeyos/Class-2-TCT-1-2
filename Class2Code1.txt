@@ -1,0 +1,192 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 12,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2025 r/thespinroom Class 2 Election",
+            "summary": "<b> THIS MOD IS MOST ENJOYABLE AND REALISTIC ON HARD-IMPOSSIBLE DIFFICULTY </b>\n\n<p> <b> After a landslide victory in the Class 1 Election, the Class 2 seat remains hotly contested. </b> <p>\n\n<p> As Incumbent Moderator AlternateHistoryIG is berated, he eventually is removed and banned for attemping to rig the election. This leads to the two frontrunners, SofshellTurtleofDoom and OneCommunity going head to head. </p>\n\n<p> With this development, this race will be closer than ever. Will you be able to win? </p>\n\n\n\n\n\n",
+            "image_url": "https://i.imgur.com/1af4QTc.gif",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/1af4QTc.gif",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2025 r/thespinroom Class 2 Election"
+    }
+]
+
+campaignTrail_temp.credits = "OneComm with ALOT of help from ThePearPerson"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "",
+            "last_name": "One-Community-3753",
+            "election": 20,
+            "party": "Independent",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>One-Community-3753 is a newcomer to the TSR mod scene, but is making some big waves. With the right campaign strategies, this election will be very winnable for him.</p>",
+            "color_hex": "#223f96",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Al_Gore%2C_Vice_President_of_the_United_States%2C_official_portrait_1994.jpg",
+            "electoral_victory_message": "placeholder",
+            "electoral_loss_message": "placeholder",
+            "no_electoral_majority_message": "placeholder",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "",
+            "last_name": "For Class 2!",
+            "election": 20,
+            "party": "Independent",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#274191",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/IAf6wZL.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "",
+            "last_name": " SofshellTurtleofDoom",
+            "election": 20,
+            "party": "SPA",
+            "state": "",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#38a211",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 138539,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 302
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            300,
+            301
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            300,
+            301
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#0e4da0",
+    "windowColor": "#0e4da0",
+    "containerColor": "#ffffff",
+    "innerWindowColor": "#3bb918",
+    "bannerImageUrl": "https://i.imgur.com/2lyZOaP.png",
+    "backgroundImageUrl": "https://i.imgur.com/TH42Nw5.png",
+    "endingTextColor": "#ffffff",
+    "customQuote": "\"As a floridian, its great to see another klansman.\" - Teammomofan",
+    "gameTitle": "r/thespinroom"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>r/thespinroom</h2><font id="wittyquote" size="4" color="white"><em>"As a floridian, its great to see another klansman." - Teammomofan</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#0e4da0";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#0e4da0";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#ffffff";
+
+document.getElementById("header").src = "https://i.imgur.com/2lyZOaP.png";
+
+document.body.background = "https://i.imgur.com/TH42Nw5.png";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#3bb918!important;}</style>";
+
+//#endcode
